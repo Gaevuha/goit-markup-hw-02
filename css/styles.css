@@ -115,7 +115,7 @@ background-color: var(--color-pressed-state);
 .hero-section {
     width: 100%;
     height: 600px;
-    background-image: url(/images/dark-bg-footer.jpg);
+    background-image: url(/goit-markup-hw-02/images/dark-bg-footer.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -132,7 +132,7 @@ background-color: var(--color-pressed-state);
 .footer {
     width: 100%;
     height: 312px;
-    background-image: url(/images/dark-bg-footer.jpg);
+    background-image: url(/goit-markup-hw-02/images/dark-bg-footer.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
