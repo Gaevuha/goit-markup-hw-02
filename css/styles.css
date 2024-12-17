@@ -14,11 +14,11 @@
 }
 
 /* base */
-*,
+/* *,
 *::after,
 *::before {
-    box-sizing: border-box; /* контент та падінги додаються всередині бордера*/
-}
+    box-sizing: border-box; /* контент та падінги додаються всередині бордера
+} */
 
 .address {
     font-style: normal;
@@ -27,10 +27,6 @@
 ul {
     list-style-type: none; /*убирає маркування списку*/
 }
-
-/* h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-} */
 
 body {
     color: var(--color-text);
@@ -43,17 +39,15 @@ body {
 }
 
 p {
-/* font-weight: 400;
-font-size: 16px;
-line-height: 1.5; */
 letter-spacing: 0.02em;
 }
 
-a {
-    display: inline-block;
+.sales-text {
+    font-size: 16px;
 }
 
 .title-sections {
+    color: var(--color-darck);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -62,6 +56,7 @@ a {
     text-transform: capitalize;
 }
 .title {
+    color: var(--color-darck);
 font-weight: 500;
 font-size: 20px; 
 line-height: 1.2;
@@ -112,10 +107,7 @@ letter-spacing: 0.02em;
 /* головна секція */
 .hero-section {
     background-color: var(--color-darck);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-}
+  }
 
 .hero-title {
     color: var(--color-white-background);
@@ -144,6 +136,9 @@ background-color: var(--color-pressed-state);
 
 
 /* our team */
+.section-team {
+    background-color: var(--color-light);
+}
 .card-team {
     background: var(--color-white-background);
 
@@ -151,10 +146,7 @@ background-color: var(--color-pressed-state);
 /* footer */
 .footer {
     background-color: var(--color-darck);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-}
+ }
 
 .link-logo-footer {
     text-transform: uppercase;
@@ -166,7 +158,7 @@ color: var(--color-primary-brand);
 }
 
 
-.sales-text {
+.sales-text-footer {
     color: var(--color-light);
 }
 
